@@ -83,6 +83,8 @@ body {
   font-size: 1.7rem;
   padding: 8px;
   text-align: center;
+  border: none;
+  cursor: pointer;
 }
 
 .circle {
