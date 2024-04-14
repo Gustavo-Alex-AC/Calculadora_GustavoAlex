@@ -13,41 +13,85 @@
 
     <link rel="stylesheet" href="styles.css" />
 
+    <script async src="index.js"></script>
     <title>Calculadora</title>
   </head>
   <body>
     <main class="main">
       <div class="calculator">
-        <input type="text" class="calculator-input" />
+        <input type="text" class="calculator-input" name="display" />
+
         <div class="items">
           <ul class="row">
-            <li><button class="row-item color-gray--1 circle">AC</button></li>
-            <li><button class="row-item color-gray--1 circle">DEL</button></li>
-            <li><button class="row-item color-gray--1 circle">%</button></li>
-            <li><button class="row-item operator circle">/</button></li>
+            <li>
+              <button class="row-item color-gray--1 circle" value="AC">
+                AC
+              </button>
+            </li>
+            <li>
+              <button class="row-item color-gray--1 circle" value="DEL">
+                DEL
+              </button>
+            </li>
+            <li>
+              <button class="row-item color-gray--1 circle" value="%">%</button>
+            </li>
+            <li>
+              <button class="row-item operator circle" value="/">/</button>
+            </li>
           </ul>
           <ul class="row">
-            <li><button class="row-item color-gray--2 circle">7</button></li>
-            <li><button class="row-item color-gray--2 circle">8</button></li>
-            <li><button class="row-item color-gray--2 circle">9</button></li>
-            <li><button class="row-item operator circle">*</button></li>
+            <li>
+              <button class="row-item color-gray--2 circle" value="7">7</button>
+            </li>
+            <li>
+              <button class="row-item color-gray--2 circle" value="8">8</button>
+            </li>
+            <li>
+              <button class="row-item color-gray--2 circle" value="9">9</button>
+            </li>
+            <li>
+              <button class="row-item operator circle" value="*">*</button>
+            </li>
           </ul>
           <ul class="row">
-            <li><button class="row-item color-gray--2 circle">4</button></li>
-            <li><button class="row-item color-gray--2 circle">5</button></li>
-            <li><button class="row-item color-gray--2 circle">6</button></li>
-            <li><button class="row-item operator circle">-</button></li>
+            <li>
+              <button class="row-item color-gray--2 circle" value="4">4</button>
+            </li>
+            <li>
+              <button class="row-item color-gray--2 circle" value="5">5</button>
+            </li>
+            <li>
+              <button class="row-item color-gray--2 circle" value="6">6</button>
+            </li>
+            <li>
+              <button class="row-item operator circle" value="-">-</button>
+            </li>
           </ul>
           <ul class="row">
-            <li><button class="row-item color-gray--2 circle">1</button></li>
-            <li><button class="row-item color-gray--2 circle">2</button></li>
-            <li><button class="row-item color-gray--2 circle">3</button></li>
-            <li><button class="row-item operator circle">+</button></li>
+            <li>
+              <button class="row-item color-gray--2 circle" value="1">1</button>
+            </li>
+            <li>
+              <button class="row-item color-gray--2 circle" value="2">2</button>
+            </li>
+            <li>
+              <button class="row-item color-gray--2 circle" value="3">3</button>
+            </li>
+            <li>
+              <button class="row-item operator circle" value="+">+</button>
+            </li>
           </ul>
           <ul class="row">
-            <li class="row-item row-item--zero color-gray--2">0</li>
-            <li class="row-item color-gray--2 circle">.</li>
-            <li class="row-item operator circle">=</li>
+            <li class="row-item row-item--zero color-gray--2" value="0">0</li>
+            <li>
+              <button class="row-item color-gray--2 circle" value=".">.</button>
+            </li>
+            <li>
+              <button class="row-item igual operator circle" value="=">
+                =
+              </button>
+            </li>
           </ul>
         </div>
       </div>
