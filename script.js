@@ -1,24 +1,9 @@
-// const buttonElements = document.querySelectorAll(".row-item");
-// const calculatorInput = document.querySelector(".calculator-input");
+// const botao3 = document.getElementById("botao3");
 
-// console.log(calculatorInput.textContent);
-
-// buttonElements.forEach((el) => {
-//   el.addEventListener("click", function () {
-//     const content = el.textContent;
-
-//     calculatorInput.value += content;
-//   });
-// });
-
-// $(document).ready(function () {
-//   $(".row-item").click(function () {
-//     alert("Hello, world");
-//   });
-// });
-
-// $(document).reaady(function () {
-//   alert("Hello, world");
+// botao3.addEventListener("click", function () {
+//   let num = botao3.textContent;
+//   document.getElementsByClassName("calculator-input").value = num;
+//   alert(num);
 // });
 
 // aula de hoje
